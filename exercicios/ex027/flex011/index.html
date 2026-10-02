@@ -16,18 +16,33 @@
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
-            flex-shrink: 1;
-            flex-grow: 1;
+            flex-basis: 200px;
+        }
 
+        div#teste1 {
+            flex-basis: 150px;
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+        div#teste2 {
+            flex-basis: 150px;
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+
+        div#teste3{
+            flex-basis: 150px;
+            flex-grow: 1;
+            flex-shrink: 2;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item" >A</div>
-        <div class="item" >B</div>
-        <div class="item" >C</div>
+        <div class="item" id="teste1">A</div>
+        <div class="item" id="teste2">B</div>
+        <div class="item" id="teste3">C</div>
     </div>
 </body>
 </html>
